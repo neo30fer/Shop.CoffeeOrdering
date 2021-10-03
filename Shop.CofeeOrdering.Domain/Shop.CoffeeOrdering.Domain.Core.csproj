@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shop.CoffeeOrdering.Common.Interfaces\Shop.CoffeeOrdering.Common.Interfaces.csproj" />
+    <ProjectReference Include="..\Shop.CoffeeOrdering.Domain.Interfaces\Shop.CoffeeOrdering.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Shop.CoffeeOrdering.Infrastructure.Interface\Shop.CoffeeOrdering.Infrastructure.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

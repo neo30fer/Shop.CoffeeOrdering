@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shop.CoffeeOrdering.Infrastructure.Data\Shop.CoffeeOrdering.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Shop.CoffeeOrdering.Infrastructure.Interface\Shop.CoffeeOrdering.Infrastructure.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.19" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shop.CofeeOrdering.Domain\Shop.CoffeeOrdering.Domain.Core.csproj" />
+    <ProjectReference Include="..\Shop.CoffeeOrdering.Domain.Entity\Shop.CoffeeOrdering.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Shop.CoffeeOrdering.Domain.Interfaces\Shop.CoffeeOrdering.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Shop.CoffeeOrdering.Infrastructure.Interface\Shop.CoffeeOrdering.Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\Shop.CoffeeOrdering.Infrastructure.Repository\Shop.CoffeeOrdering.Infrastructure.Repository.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+
+</Project>
