@@ -1,4 +1,4 @@
-# Coffee Shop Ordering ASP.NET Core REST WebApi
+# Sample Coffee Shop Ordering ASP.NET Core REST WebApi
 
 ## Tecnhology Stack
 
