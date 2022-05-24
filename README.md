@@ -22,7 +22,7 @@
     }
    ```
 
-  The response should show the Bearer token ("token" field), which is needed to be added to the following requests.
+  The response should show the Bearer token ("token" field), which is required by the following requests.
 
 2. Get all Items:
 
