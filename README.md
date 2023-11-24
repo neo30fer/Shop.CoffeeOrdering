@@ -2,8 +2,8 @@
 
 ## Technology Stack
 
-1. .NET Core 3.1 WebApi
-2. .NET Standard 2.0 Class Library
+1. .NET Core 3.1
+2. .NET Standard 2.0
 3. MongoDB
 
 
